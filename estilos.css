@@ -1,0 +1,12 @@
+p[class="fondorosa"]{
+	text-align: center; background-color: pink;
+}
+p[class~="fondorosa"]{
+	color: red;
+}
+*[lang|="es"]{
+	color: purple;
+}
+img[src^="img"]{
+	border: 1px solid;   
+}
